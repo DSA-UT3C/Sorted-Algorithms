@@ -33,8 +33,6 @@ void heapify(int* arr, int V, int idx)
         std::swap(arr[root], arr[idx]);
         heapify(arr, V, root);
     }
-    
-    // Referencia: Basado en https://www.geeksforgeeks.org/heap-sort/
 }
 
 
