@@ -1,10 +1,18 @@
 #include <iostream>
 
-void BubbleSort(int arr[], int N)
+/**
+ * Bubble Sort
+ * @param arr puntero de array
+ * @param N cantidad de elementos del array
+ */
+
+void Bubblesort(int *arr, int N)
 {
-  for (int i = 0; i < N; i++) {
-    for (int j = 0; j < N-1; j++) {
-      if (arr[j] > arr[j+1])
+  for(int i = 0; i < N; i++)
+  {
+    for(int j = 0; j < N-1; j++)
+    {
+      if(arr[j] > arr[j+1])
       {
         std::swap(arr[j], arr[j+1]);
       }
