@@ -2,6 +2,6 @@
 #define BUBBLE_SORT
 #include <iostream>
 
-void Bubblesort(int *arr, int N);
+void BubbleSort(int *arr, int N);
 
 #endif // BUBBLE_SORT
