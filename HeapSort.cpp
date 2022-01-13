@@ -1,4 +1,4 @@
-#include <iostream>
+#include "HeapSort.h"
 
 /**
  * @brief Funcion Heapify
@@ -34,7 +34,7 @@ void heapify(int* arr, int V, int idx)
         heapify(arr, V, root);
     }
     
-    // Referencia: Inspirado de https://www.geeksforgeeks.org/heap-sort/
+    // Referencia: Basado en https://www.geeksforgeeks.org/heap-sort/
 }
 
 
